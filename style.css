@@ -16,10 +16,7 @@ hr{
 header{
 	height: auto;
 	background-color: #ffffff;
-}
 
-header div{
-	height: 100px;
 }
 
 header div div h1{
@@ -29,7 +26,7 @@ header div div h1{
 	text-align: center;
 	left: 0;
 	right: 0;
-	border-radius: 20px;
+	margin:0;
 }
 
 #filler{
@@ -37,15 +34,20 @@ header div div h1{
 	
 }
 
+header div:nth-child(1){
+	height: 100px;
+	position: relative;
+}
 
 
 nav{
 	background-color: hotpink;
 	width: 100%;
 	text-align: center;
-	margin: 10px 0px;
-	top: 0;
-	bottom: 0;
+	 position: absolute;
+       top: 50%;
+       right: 0;
+       bottom: 0;
 }
 
 header div nav a{
@@ -53,6 +55,9 @@ header div nav a{
 	color:#777777;
 	padding:0px 15px;
 	text-decoration: none;
+	 line-height: 1rem;
+       position: relative;
+       top: -0.5rem;
 }
 
 header div nav a:hover{
@@ -82,7 +87,7 @@ header div nav a:nth-child(1){
 }
 
 .content img{
-	width: 100%;
+	width: 30%;
 }
 
 .separator{
