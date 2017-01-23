@@ -1,0 +1,45 @@
+body{
+	background-image: url('assets/images/dark.png');
+	
+}
+
+header{
+	height: auto;
+	background-color: #ffffff;
+	background-color: yellow;
+}
+
+header div div h1{
+	background-color: #4aaaa5;
+	color: white;
+	padding:20px;
+	text-align: center;
+	left: 0;
+	right: 0;
+}
+
+#filler{
+	background-color: blue;
+	
+}
+
+
+
+#navContainer{
+	background-color: purple;
+
+}
+
+
+header div nav a{
+	border-left: 1px #777777 solid;
+	color:#777777;
+	padding: 15px;
+	background-color: red;
+
+}
+
+header div nav a:nth-child(1){
+	border:none;
+}
+
