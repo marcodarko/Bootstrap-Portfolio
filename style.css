@@ -1,12 +1,25 @@
+
+
 body{
 	background-image: url('assets/images/dark.png');
 	
 }
 
+h3{
+	color: #4aaaa5;
+}
+
+hr{
+	border: 1px #777777 solid;
+}
+
 header{
 	height: auto;
 	background-color: #ffffff;
-	background-color: yellow;
+}
+
+header div{
+	height: 100px;
 }
 
 header div div h1{
@@ -16,6 +29,7 @@ header div div h1{
 	text-align: center;
 	left: 0;
 	right: 0;
+	border-radius: 20px;
 }
 
 #filler{
@@ -25,21 +39,88 @@ header div div h1{
 
 
 
-#navContainer{
-	background-color: purple;
-
+nav{
+	background-color: hotpink;
+	width: 100%;
+	text-align: center;
+	margin: 10px 0px;
+	top: 0;
+	bottom: 0;
 }
-
 
 header div nav a{
 	border-left: 1px #777777 solid;
 	color:#777777;
-	padding: 15px;
-	background-color: red;
+	padding:0px 15px;
+	text-decoration: none;
+}
 
+header div nav a:hover{
+	color: #4aaaa5;
+	text-decoration: none;
 }
 
 header div nav a:nth-child(1){
 	border:none;
 }
 
+.wrapper{
+	padding: 40px;
+}
+
+.content{
+	background-color: #ffffff;
+	color:#777777;
+	border-radius: 10px;
+	overflow: auto;
+	box-shadow: 6px 6px 7px black;
+}
+
+.content div{
+	width: auto;
+	padding:10px;
+}
+
+.content img{
+	width: 100%;
+}
+
+.separator{
+	background-color: limegreen;
+	height: 20px;
+}
+
+.sidebar img{
+	width: 20%;
+	margin: 10px;
+
+}
+
+.sidebar{
+background-color: #ffffff;
+	color:#777777;
+	margin-bottom: 200px;
+	border-radius: 10px;
+	box-shadow: 6px 6px 7px black;
+	margin: 0 auto;
+	margin-bottom: 200px;
+
+}
+
+.sidebar div{
+	text-align: center;
+	width: auto;
+	padding:10px;
+}
+
+footer{
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	background-color: grey;
+	color:#ffffff;
+	text-align: center;
+	border-top: 3px #4aaaa5 solid;
+
+}
