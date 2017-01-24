@@ -12,10 +12,20 @@ hr{
 	border: 1px #777777 solid;
 }
 
+
+
 header{
 	height: auto;
 	background-color: #ffffff;
 
+}
+
+header div.container{
+	max-width: 960px;
+}
+
+div.wrapper div.container{
+	max-width: 960px;
 }
 
 header div div h1{
@@ -70,12 +80,15 @@ header div nav a:nth-child(1){
 	border-radius: 10px;
 	overflow: auto;
 	box-shadow: 6px 6px 7px black;
+	padding: 10px;
 }
 
-.content div{
-	width: auto;
-	padding:10px;
+.content div:first-child{
+	width: 100%;
+	
 }
+
+
 
 .profilePic{
 	margin-right: 10px;
@@ -85,9 +98,7 @@ header div nav a:nth-child(1){
 	height: auto;
 }
 
-.content p{
-	
-}
+
 
 input, textarea{
 	border-radius: 10px;
@@ -130,34 +141,55 @@ background-color: #ffffff;
 	padding:10px;
 }
 
-#galleryPic{
-	display: block;
-	padding: 0;
+.sidebar a:hover{
+	text-decoration: none;
+}
+
+.sidebar a img:hover{
+	transform:rotateY(360deg);
+	transform-origin:center;
+	transition-duration:2s;
+}
+
+.picCont{
+	padding: 10px;
+	opacity: .75;
+}
+
+.picCont:hover{
+	opacity: 1;
+}
+
+.galleryPic{
+	width: 100%;
+	display: inline-block;
+	padding: 0px;
 	position: relative;
 }
 
-#galleryPic img{
-	max-width: 100%;
-	display: block;
+.galleryPic img{
+	width: 100%;
 	height: auto;
+	border-radius: 10px;
 }
 
-#galleryPic div{
-	width: 100%;
+.galleryPic div{
 	text-align: center;
 	padding: 10px 0px;
 	background-color: #4aaaa5;
 	position: absolute;
 	bottom: 30%;
+	left: 0;
+	right: 0;
 }
 
-#galleryPic div a{
+.galleryPic div a{
 	color: #ffffff;
 }
 
 footer{
 	width: 100%;
-	padding: 20px;
+	padding: 20px 0px;
 	position: fixed;
 	bottom: 0;
 	background-color: grey;
