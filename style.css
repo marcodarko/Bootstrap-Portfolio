@@ -58,7 +58,7 @@ header div nav a{
 	color:#777777;
 	padding:0px 15px;
 	text-decoration: none;
-	line-height: 7;
+	line-height:7;
 }
 
 header div nav a:hover{
@@ -88,13 +88,16 @@ header div nav a:nth-child(1){
 	
 }
 
+.content p{
+
+}
 
 
 .profilePic{
 	margin-right: 10px;
 	margin-bottom: 10px;
 	max-width: 100%;
-	display: block;
+
 	height: auto;
 }
 
